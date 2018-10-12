@@ -2,7 +2,7 @@
   "name": "walmart-dashboard",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ImFanJs.github.io/walmart-dashboard",
+  "homepage": "https://imfanjs.github.io/walmart-dashboard",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "firebase": "^5.4.2",

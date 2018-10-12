@@ -5,12 +5,12 @@ import './App.css';
 
 // Initialize Firebase
 let config = {
-  apiKey: 'AIzaSyBV9fTZbmYX290lOxJ6UCkGJTYKL6_vBww',
+  apiKey: '',
   authDomain: 'walmart-xml-list.firebaseapp.com',
   databaseURL: 'https://walmart-xml-list.firebaseio.com',
   projectId: 'walmart-xml-list',
   storageBucket: 'walmart-xml-list.appspot.com',
-  messagingSenderId: '519020373877'
+  messagingSenderId: ''
 };
 firebase.initializeApp(config);
 

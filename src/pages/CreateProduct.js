@@ -131,9 +131,9 @@ export default class CreateProduct extends Component {
     return (
       <section className="create-product">
         <header className="App-header">
-          <h1 className="App-title">Welcome to Walmart</h1>
+          <h1 className="App-title">Walmart / Menú digital / Carnes</h1>
         </header>
-        <div className="row mt-5">
+        <div className="row mt-3">
           <div className="col-4 offset-4">
             <div className="form-group">
               <label htmlFor="name">Producto 1:</label>
@@ -158,6 +158,9 @@ export default class CreateProduct extends Component {
                 value={price}
                 onChange={this.handleChanges}
               />
+              <small className="text-muted">
+                Ejemplo: 125 (sólo números enteros)
+              </small>
             </div>
           </div>
           <div className="col-4 offset-4">
@@ -181,7 +184,7 @@ export default class CreateProduct extends Component {
           </div>
         </div>
         <hr />
-        <div className="row mt-5">
+        <div className="row mt-3">
           <div className="col-4 offset-4">
             <div className="form-group">
               <label htmlFor="nameTwo">Producto 2:</label>
@@ -206,6 +209,9 @@ export default class CreateProduct extends Component {
                 value={priceTwo}
                 onChange={this.handleChanges}
               />
+              <small className="text-muted">
+                Ejemplo: 125 (sólo números enteros)
+              </small>
             </div>
           </div>
           <div className="col-4 offset-4">
@@ -224,7 +230,7 @@ export default class CreateProduct extends Component {
           </div>
         </div>
         <hr />
-        <div className="row mt-5">
+        <div className="row mt-3">
           <div className="col-4 offset-4">
             <div className="form-group">
               <label htmlFor="nameThree">Producto 3:</label>
@@ -249,6 +255,9 @@ export default class CreateProduct extends Component {
                 value={priceThree}
                 onChange={this.handleChanges}
               />
+              <small className="text-muted">
+                Ejemplo: 125 (sólo números enteros)
+              </small>
             </div>
           </div>
           <div className="col-4 offset-4">

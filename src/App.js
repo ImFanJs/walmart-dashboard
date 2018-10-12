@@ -1,25 +1,24 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import firebase from 'firebase';
+import CreateProduct from './pages/CreateProduct';
 import './App.css';
+
+// Initialize Firebase
+let config = {
+  apiKey: 'AIzaSyBV9fTZbmYX290lOxJ6UCkGJTYKL6_vBww',
+  authDomain: 'walmart-xml-list.firebaseapp.com',
+  databaseURL: 'https://walmart-xml-list.firebaseio.com',
+  projectId: 'walmart-xml-list',
+  storageBucket: 'walmart-xml-list.appspot.com',
+  messagingSenderId: '519020373877'
+};
+firebase.initializeApp(config);
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <CreateProduct />
       </div>
     );
   }

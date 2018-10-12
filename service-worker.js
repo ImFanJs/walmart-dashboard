@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/walmart-dashboard/precache-manifest.f5ad0890e5112d509b95a6255a11b0e0.js"
+  "/walmart-dashboard/precache-manifest.66eed0694cfdd462f3f997b025203edd.js"
 );
 
 workbox.clientsClaim();
